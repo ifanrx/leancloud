@@ -11,12 +11,12 @@ install_requires = [
     'iso8601>=0.1.14',
     'six>=1.11.0',
     'qiniu==7.3.1',
-    "requests<=2.31.0; python_version >= '3.7'",
-    "urllib3<=1.26.18; python_version >= '3.7'",
+    "requests",
+    "urllib3",
     'requests-toolbelt>=1.0.0',
-    'Werkzeug>=0.16.0,<2.0.0',
+    'Werkzeug',
     'secure-cookie>=0.1.0,<1.0.0',
-    'gevent>=22.10.2,<23.0.0',
+    'gevent
     "typing; python_version < '3.5'",
     'markupsafe<=2.0.1',
 ]
