@@ -16,7 +16,7 @@ install_requires = [
     'requests-toolbelt>=1.0.0',
     'Werkzeug',
     'secure-cookie>=0.1.0,<1.0.0',
-    'gevent
+    'gevent',
     "typing; python_version < '3.5'",
     'markupsafe<=2.0.1',
 ]
