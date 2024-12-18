@@ -22,9 +22,9 @@ from .client import use_master_key
 from .client import use_production
 from .client import use_region
 from .conversation import Conversation  # noqa: F401
-from .engine import Engine
-from .engine import LeanEngineError
-from .engine.https_redirect_middleware import HttpsRedirectMiddleware
+# from .engine import Engine
+# from .engine import LeanEngineError
+# from .engine.https_redirect_middleware import HttpsRedirectMiddleware
 from .errors import LeanCloudError
 from .errors import LeanCloudWarning
 from .file_ import File
@@ -50,15 +50,15 @@ __version__ = "2.1.9"
 
 __all__ = [
     "ACL",
-    "Engine",
+    # "Engine",
     "File",
     "FriendshipQuery",
     "GeoPoint",
-    "HttpsRedirectMiddleware",
+    # "HttpsRedirectMiddleware",
     "InboxQuery",
     "Installation",
     "LeanCloudError",
-    "LeanEngineError",
+    # "LeanEngineError",
     "Object",
     "Query",
     "Relation",
