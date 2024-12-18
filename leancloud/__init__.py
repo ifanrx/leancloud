@@ -14,7 +14,7 @@ import sys
 import warnings
 
 from . import client
-from . import cloud
+# from . import cloud
 from . import push
 from .acl import ACL
 from .client import init
@@ -67,7 +67,7 @@ __all__ = [
     "SysMessage",
     "User",
     "client",
-    "cloud",
+    # "cloud",
     "init",
     "push",
     "use_master_key",
